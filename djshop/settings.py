@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 import os
 from oscar.defaults import *
 from oscar import OSCAR_MAIN_TEMPLATE_DIR, get_core_apps
+#from accounts import TEMPLATE_DIR as ACCOUNTS_TEMPLATE_DIR
+import base64
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -43,8 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.flatpages',
+    'django.contrib.sites',
+
     'compressor',
     'widget_tweaks',
+
+    #'accounts',
 ] + get_core_apps()
 
 MIDDLEWARE_CLASSES = [
@@ -69,6 +75,7 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             OSCAR_MAIN_TEMPLATE_DIR,
+            #ACCOUNTS_TEMPLATE_DIR,
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -154,6 +161,14 @@ STATICFILES_DIRS = [
 SITE_ID = 1
 
 
+# EMAIL
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 994
+EMAIL_HOST_USER = 'exceldream'
+EMAIL_HOST_PASSWORD = base64.decodestring('ZXhkOTcxMDI3\n')
+EMAIL_USE_SSL = True
+
+
 AUTHENTICATION_BACKENDS = (
     'oscar.apps.customer.auth_backends.EmailBackend',
     'django.contrib.auth.backends.ModelBackend',
@@ -179,3 +194,28 @@ OSCAR_DEFAULT_CURRENCY = 'CNY'
 
 OSCAR_SHOP_NAME = 'GuangHua'
 
+OSCAR_FROM_EMAIL = 'exceldream@163.com'
+
+
+# OSCAR_DASHBOARD_NAVIGATION.append({
+#     'label': 'Accounts',
+#     'icon': 'icon-globe',
+#     'children': [
+#         {
+#             'label': 'Accounts',
+#             'url_name': 'accounts-list',
+#         },
+#         {
+#             'label': 'Transfers',
+#             'url_name': 'transfers-list',
+#         },
+#         {
+#             'label': 'Deferred income report',
+#             'url_name': 'report-deferred-income',
+#         },
+#         {
+#             'label': 'Profit/loss report',
+#             'url_name': 'report-profit-loss',
+#         },
+#     ]
+# })
