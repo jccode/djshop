@@ -9717,3 +9717,39 @@ input[type="number"][id*="quantity"] {
 .header .page_inner {
   padding: 20px 0 10px;
 }
+.product_pod .image_container,
+.product_pod .availability,
+.product_pod .price_color {
+  margin-bottom: 8px;
+  min-height: 20px;
+}
+.side_categories {
+  padding: 8px;
+}
+/*
+.header .navbar.primary {
+  background: @brand-primary;
+  border-color: lighten(@brand-primary, 10%);
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: @brand-primary;
+  }
+
+  .btn-default {
+    color: @brand-primary;
+  }
+
+  .navbar-toggle,
+  .navbar-toggle:focus,
+  .navbar-toggle:active {
+    border-color: lighten(@brand-primary, 20%);
+  }
+
+  .navbar-collapse, .navbar-form {
+    border-color: lighten(@brand-primary, 10%);
+  }
+}
+*/
