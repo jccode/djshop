@@ -15,6 +15,7 @@ from oscar.defaults import *
 from oscar import OSCAR_MAIN_TEMPLATE_DIR, get_core_apps
 #from accounts import TEMPLATE_DIR as ACCOUNTS_TEMPLATE_DIR
 import base64
+from django.utils.translation import ugettext_lazy as _
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -132,7 +133,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans' #'en-us'
+LANGUAGE_CODE = 'zh' #'zh-hans' #'en-us'
 
 TIME_ZONE = 'Asia/Shanghai' #'UTC'
 
@@ -192,7 +193,7 @@ OSCAR_ORDER_STATUS_PIPELINE = {
 
 OSCAR_DEFAULT_CURRENCY = 'CNY'
 
-OSCAR_SHOP_NAME = 'GuangHua'
+OSCAR_SHOP_NAME = _('GuangHua')
 
 OSCAR_FROM_EMAIL = 'exceldream@163.com'
 
@@ -219,3 +220,15 @@ OSCAR_FROM_EMAIL = 'exceldream@163.com'
 #         },
 #     ]
 # })
+
+
+INTERNAL_IPS = (
+    '0.0.0.0',
+    '127.0.0.1',
+)
+
+# USE_LESS = True
+#
+# COMPRESS_PRECOMPILERS = (
+#     ('text/less', 'lessc {infile} {outfile}'),
+# )

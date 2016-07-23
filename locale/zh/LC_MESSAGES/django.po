@@ -1,0 +1,1821 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-23 23:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: djshop/settings.py:196
+msgid "GuangHua"
+msgstr "港华"
+
+#: env/lib/python2.7/site-packages/accounts/abstract_models.py:59
+msgid "This text is shown to customers during checkout"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/abstract_models.py:440
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1951
+msgid "IP address"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/abstract_models.py:458
+msgid "IP address record"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/abstract_models.py:459
+msgid "IP address records"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:12
+#: env/lib/python2.7/site-packages/accounts/forms.py:9
+msgid "Account code"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:26
+#: env/lib/python2.7/site-packages/accounts/forms.py:18
+msgid "No account found with this code"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:29
+msgid "This account is no longer active"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:32
+msgid "This account is no longer open"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:35
+msgid "This account is empty"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:38
+msgid "You can not authorised to use this account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:43
+msgid "Allocation"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/forms.py:76
+#, python-format
+msgid "The maximum allocation is %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/checkout/gateway.py:34
+#, python-format
+msgid "No active account found with code %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:21
+msgid "Open"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:22
+msgid "Frozen"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:23
+msgid "Closed"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:34
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:52
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:8
+msgid "Name"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:164
+#, python-format
+msgid "The maximum permitted top-up amount is %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:170
+msgid "Account is closed"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:172
+msgid "Account is frozen"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:181
+msgid "From"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/forms.py:182
+msgid "To"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:28
+#, python-format
+msgid "All %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:58
+#, python-format
+msgid "%(status)s %(unit)ss %(code_filter)s %(name_filter)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:68
+#, python-format
+msgid " with name matching '%s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:72
+#, python-format
+msgid " with code '%s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:90
+#, python-format
+msgid "Create a new %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:102
+msgid "Creation of account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:105
+#, python-format
+msgid "Account created but unable to load funds onto new account: %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:110
+#, python-format
+msgid "New account created with code '%s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:123
+#, python-format
+msgid "Update '%s' account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:128
+msgid "Account saved"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:139
+msgid "Account frozen"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:149
+msgid "Account thawed"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:164
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:7
+msgid "Top-up account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:167
+#, python-format
+msgid "Unable to top-up account: %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:170
+#, python-format
+msgid "%s added to account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:175
+msgid "Account re-opened"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:203
+msgid "All transfers"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:227
+#, python-format
+msgid "Transfers %(reference)s %(date)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:235
+#, python-format
+msgid " with reference '%s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:242
+#, python-format
+msgid " created between %(start_date)s and %(end_date)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:247
+#, python-format
+msgid " created since %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/dashboard/views.py:251
+#, python-format
+msgid " created before %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:7
+msgid "Check my balance"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:13
+msgid "Home"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:16
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:7
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:7
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:7
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:17
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:16
+msgid "Accounts"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:20
+msgid "Check balance of giftcard"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:25
+msgid "Your IP address is currently blocked.  Please try again later."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:30
+msgid "Fetch account details"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:38
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:53
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:20
+msgid "Code"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:42
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:57
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:28
+msgid "Balance"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:46
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:54
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:16
+msgid "Status"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:51
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:55
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:43
+msgid "Start date"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/balance_check.html:57
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:56
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:49
+msgid "End date"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:7
+msgid "Account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:13
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:13
+msgid "Dashboard"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:34
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:74
+msgid "Edit"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:35
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:76
+msgid "Top-up"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:37
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:24
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:36
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:78
+msgid "Freeze"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:39
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:80
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:31
+msgid "Thaw"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:43
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:75
+msgid "Transactions"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:48
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:41
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:7
+msgid "Transfer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:49
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:47
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:49
+msgid "Amount"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:50
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:12
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:55
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:51
+msgid "Description"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:51
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:59
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:52
+msgid "Authorised by"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:52
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:63
+msgid "Date"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_detail.html:69
+msgid "No transactions."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:25
+msgid "Update"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:27
+msgid "Create"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:38
+msgid "Edit this account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:51
+msgid "Initial transaction"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:58
+msgid "Restrictions"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:59
+msgid "Restrict WHEN the account can be used"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:62
+msgid "Restrict WHO can use the account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:65
+msgid "Restrict WHAT can be bought"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:70
+msgid "Save"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:71
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:37
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:41
+#: env/lib/python2.7/site-packages/django/utils/text.py:248
+msgid "or"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_form.html:72
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:37
+msgid "cancel"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:7
+#, python-format
+msgid "Freeze account %(id)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_freeze.html:28
+msgid "Freeze account?"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:26
+msgid "Create a new "
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:35
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:40
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:29
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:34
+#: env/lib/python2.7/site-packages/haystack/forms.py:28
+msgid "Search"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:41
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:35
+msgid "reset"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:58
+msgid "Num transactions"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:59
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:53
+msgid "Date created"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_list.html:88
+msgid "No results found."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:7
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:20
+msgid "Thaw account"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_thaw.html:24
+msgid "Thaw account?"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:24
+msgid "Top up"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:28
+msgid "Top up account?"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:36
+msgid "Transaction"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/account_top_up.html:44
+msgid "This account cannot be topped-up."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:24
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:38
+msgid "Account type"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:32
+msgid "Credit limit"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:35
+msgid "No limit"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:55
+msgid "Primary user"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:62
+msgid "Num secondary users"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/partials/account_detail.html:69
+msgid "Can be spent on products from range"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:30
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:30
+msgid "Fetch report"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:34
+msgid "Position at"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:39
+msgid "Total balance"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:40
+msgid "Num accounts"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:41
+msgid "Expiring"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:47
+msgid "&lt; 30 days"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:48
+msgid "30 - 60 days"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:49
+msgid "60 - 90 days"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:50
+msgid "&gt; 90 days"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/deferred_income.html:51
+msgid "No end date"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:34
+msgid "Transactions between"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:34
+#: env/lib/python2.7/site-packages/django/db/models/base.py:1130
+#: env/lib/python2.7/site-packages/django/forms/models.py:718
+msgid "and"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:38
+msgid "INCREASES IN DEFERRED INCOME LIABILITY"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:41
+msgid "Sales"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:54
+msgid "Unpaid sources"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:67
+msgid "Refunds"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:80
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:117
+msgid "TOTAL"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:88
+msgid "REDUCTIONS IN DEFERRED INCOME LIABILITY"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:91
+msgid "Redemptions"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:104
+msgid "Expired"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/reports/profit_loss.html:125
+msgid "DIFFERENCE IN POSITION"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:21
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:7
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:19
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:23
+msgid "Transfers"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:35
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:46
+msgid "Reference"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:39
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:47
+msgid "Source"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:43
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:48
+msgid "Destination"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_detail.html:51
+msgid "Merchant reference"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:50
+msgid "Order number"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/accounts/templates/accounts/dashboard/transfer_list.html:70
+msgid "No transfers found."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/contrib/sitemaps/apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/contrib/staticfiles/apps.py:7
+msgid "Static Files"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/contrib/webdesign/apps.py:7
+msgid "Web Design"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:20
+msgid "Enter a valid value."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:94
+#: env/lib/python2.7/site-packages/django/forms/fields.py:712
+msgid "Enter a valid URL."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:137
+msgid "Enter a valid integer."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:148
+msgid "Enter a valid email address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:222
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:227
+#: env/lib/python2.7/site-packages/django/core/validators.py:246
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:232
+#: env/lib/python2.7/site-packages/django/core/validators.py:247
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:242
+#: env/lib/python2.7/site-packages/django/core/validators.py:245
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:270
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1144
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:279
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:305
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:312
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:321
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/core/validators.py:332
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/db/models/base.py:1132
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:107
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:108
+msgid "This field cannot be null."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:109
+msgid "This field cannot be blank."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:110
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:114
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:132
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:922
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1833
+msgid "Integer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:926
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1831
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1001
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1003
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1078
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1139
+msgid "Comma-separated integers"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1188
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1190
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1340
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1193
+msgid "Date (without time)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1338
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1342
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1346
+msgid "Date (with time)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1498
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1500
+msgid "Decimal number"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1651
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1654
+msgid "Duration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1706
+msgid "Email address"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1730
+msgid "File path"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1797
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1799
+msgid "Floating point number"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1900
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1915
+msgid "IPv4 address"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2030
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2032
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2092
+msgid "Positive integer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2104
+msgid "Positive small integer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2117
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2146
+msgid "Small integer"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2153
+msgid "Text"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2176
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2178
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2181
+#: env/lib/python2.7/site-packages/haystack/templates/panels/haystack.html:8
+msgid "Time"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2309
+msgid "URL"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2332
+msgid "Raw binary data"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/__init__.py:2376
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/files.py:238
+msgid "File"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/files.py:388
+msgid "Image"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/related.py:1809
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/related.py:1811
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/related.py:2041
+msgid "One-to-one relationship"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/db/models/fields/related.py:2131
+msgid "Many-to-many relationship"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:64
+msgid "This field is required."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:237
+msgid "Enter a whole number."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:280
+#: env/lib/python2.7/site-packages/django/forms/fields.py:317
+msgid "Enter a number."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:319
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:323
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:327
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:438
+#: env/lib/python2.7/site-packages/django/forms/fields.py:1193
+msgid "Enter a valid date."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:462
+#: env/lib/python2.7/site-packages/django/forms/fields.py:1194
+msgid "Enter a valid time."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:484
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:525
+msgid "Enter a valid duration."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:591
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:592
+msgid "No file was submitted."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:593
+msgid "The submitted file is empty."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:595
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:598
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:660
+#: env/lib/python2.7/site-packages/sorl/thumbnail/fields.py:52
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:827
+#: env/lib/python2.7/site-packages/django/forms/fields.py:921
+#: env/lib/python2.7/site-packages/django/forms/models.py:1238
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:922
+#: env/lib/python2.7/site-packages/django/forms/fields.py:1037
+#: env/lib/python2.7/site-packages/django/forms/models.py:1237
+msgid "Enter a list of values."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:1038
+msgid "Enter a complete value."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/fields.py:1264
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: env/lib/python2.7/site-packages/django/forms/forms.py:129
+msgid ":"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/forms.py:214
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: env/lib/python2.7/site-packages/django/forms/forms.py:659
+msgid ":?.!"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:96
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:333
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:340
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:368
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:370
+msgid "Order"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/formsets.py:372
+msgid "Delete"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:712
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:716
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:722
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:730
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:1053
+msgid "The inline foreign key did not match the parent instance primary key."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:1123
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/models.py:1240
+#, python-format
+msgid "\"%(pk)s\" is not a valid value for a primary key."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/utils.py:165
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:345
+msgid "Currently"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:346
+msgid "Change"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:347
+msgid "Clear"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:555
+msgid "Unknown"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:556
+msgid "Yes"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/forms/widgets.py:557
+msgid "No"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:865
+msgid "yes,no,maybe"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:894
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:906
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:908
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:910
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:912
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:914
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/template/defaultfilters.py:916
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:61
+msgid "p.m."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:62
+msgid "a.m."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:67
+msgid "PM"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:68
+msgid "AM"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:6
+#: env/lib/python2.7/site-packages/extra_views/dates.py:15
+msgid "Monday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:6
+#: env/lib/python2.7/site-packages/extra_views/dates.py:16
+msgid "Tuesday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:6
+#: env/lib/python2.7/site-packages/extra_views/dates.py:17
+msgid "Wednesday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:6
+#: env/lib/python2.7/site-packages/extra_views/dates.py:18
+msgid "Thursday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:6
+#: env/lib/python2.7/site-packages/extra_views/dates.py:19
+msgid "Friday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:7
+#: env/lib/python2.7/site-packages/extra_views/dates.py:20
+msgid "Saturday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:7
+#: env/lib/python2.7/site-packages/extra_views/dates.py:21
+msgid "Sunday"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "January"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "February"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "March"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "April"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "May"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:18
+msgid "June"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:19
+msgid "July"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:19
+msgid "August"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:19
+msgid "September"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:19
+msgid "October"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:19
+msgid "November"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:20
+msgid "December"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "jan"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "feb"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "mar"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "apr"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "may"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:23
+msgid "jun"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "jul"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "aug"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "sep"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "oct"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "nov"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:24
+msgid "dec"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/ipv6.py:10
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/text.py:79
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: env/lib/python2.7/site-packages/django/utils/text.py:267
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:58
+msgid ", "
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:15
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/django/utils/timesince.py:47
+msgid "0 minutes"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:107
+msgid "Forbidden"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:108
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:112
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:117
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:122
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:127
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/csrf.py:132
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/debug.py:583
+msgid "Welcome to Django"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/debug.py:584
+msgid "It worked!"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/debug.py:585
+msgid "Congratulations on your first Django-powered page."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/debug.py:586
+msgid ""
+"Of course, you haven't actually done any work yet. Next, start your first "
+"app by running <code>python manage.py startapp [app_label]</code>."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/debug.py:588
+msgid ""
+"You're seeing this message because you have <code>DEBUG = True</code> in "
+"your Django settings file and you haven't configured any URLs. Get to work!"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:48
+msgid "No year specified"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:104
+msgid "No month specified"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:163
+msgid "No day specified"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:219
+msgid "No week specified"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:378
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:406
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:660
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/dates.py:694
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/detail.py:55
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/list.py:76
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/list.py:81
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/generic/list.py:172
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/static.py:58
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/static.py:60
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/django/views/static.py:100
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/admin.py:130
+#, python-format
+msgid "0 of %(count)d selected"
+msgid_plural "of %(count)d selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/haystack/admin.py:132
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python2.7/site-packages/haystack/forms.py:102
+msgid "Search In"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/panels.py:31
+msgid "Haystack"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/panels.py:55
+msgid "Search Queries"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/templates/panels/haystack.html:5
+msgid "Query"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/templates/panels/haystack.html:6
+msgid "Backend Alias"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/templates/panels/haystack.html:7
+msgid "Timeline"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/haystack/templates/panels/haystack.html:9
+msgid "Kwargs"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/sorl/thumbnail/admin/compat.py:61
+msgid "Clear image"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/admin.py:83
+#, python-format
+msgid "Exception raised while moving node: %s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/admin.py:87
+#, python-format
+msgid "Moved node \"%(node)s\" as child of \"%(other)s\""
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/admin.py:89
+#, python-format
+msgid "Moved node \"%(node)s\" as sibling of \"%(other)s\""
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/al_tree.py:373
+#: env/lib/python2.7/site-packages/treebeard/mp_tree.py:446
+#: env/lib/python2.7/site-packages/treebeard/ns_tree.py:363
+msgid "Can't move node to a descendant."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:46
+msgid "Child of"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:47
+msgid "Sibling of"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:51
+msgid "First child of"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:52
+msgid "Before"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:53
+msgid "After"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:56
+msgid "Position"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:60
+msgid "Relative to"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/forms.py:189
+msgid "-- root --"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/mp_tree.py:354
+msgid ""
+"The new node is too deep in the tree, try increasing the path.max_length "
+"property and UPDATE your database"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/mp_tree.py:1068
+#, python-format
+msgid "Path Overflow from: '%s'"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/treebeard/templatetags/admin_tree.py:248
+msgid "Return to ordered tree"
+msgstr ""
