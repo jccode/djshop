@@ -1,15 +1,15 @@
 @import "variables";
+@import "mixins";
 @import "@{oscar-less}/styles.less";
 
+
 // Override
+.container-fluid {
+  max-width: none;
+}
+
 #top_page {
   margin-bottom: 0;
-  min-height: 30px;
-
-  .navbar-nav > li > a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
 }
 
 .header .page_inner {
@@ -25,30 +25,89 @@
   padding: 8px;
 }
 
-/*
-.header .navbar.primary {
-  background: @brand-primary;
-  border-color: lighten(@brand-primary, 10%);
+// Navigation
 
-  .navbar-nav > .active > a,
-  .navbar-nav > .active > a:hover,
-  .navbar-nav > .active > a:focus {
-    color: #fff;
-    background-color: @brand-primary;
-  }
-
-  .btn-default {
-    color: @brand-primary;
-  }
-
-  .navbar-toggle,
-  .navbar-toggle:focus,
-  .navbar-toggle:active {
-    border-color: lighten(@brand-primary, 20%);
-  }
-
-  .navbar-collapse, .navbar-form {
-    border-color: lighten(@brand-primary, 10%);
-  }
+.navbar-default {
+    background-color: white;
+    border-color: fade(@gray-darker, 5%);
+    .sans-serif-font;
+    .transition-all;
+    .navbar-header .navbar-brand {
+        color: @theme-primary;
+        .sans-serif-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,
+        &:focus {
+            color: darken(@theme-primary, 10%);
+        }
+    }
+    .navbar-header .navbar-toggle {
+        font-weight: 700;
+        font-size: 12px;
+        color: @gray-darker;
+        text-transform: uppercase;
+    }
+    .nav {
+        > li {
+            > a,
+            > a:focus {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: @gray-darker;
+                &:hover {
+                    color: @theme-primary;
+                }
+            }
+            &.active {
+                > a,
+                > a:focus {
+                    color: @theme-primary !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        background-color: transparent;
+        border-color: fade(white, 30%);
+        .navbar-header .navbar-brand {
+            color: fade(white, 70%);
+            &:hover,
+            &:focus {
+                color: white;
+            }
+        }
+        .nav > li > a,
+        .nav > li > a:focus {
+            color: fade(white, 70%);
+            &:hover {
+                color: white;
+            }
+        }
+        &.affix, &.navbar-static-top {
+            background-color: white;
+            border-color: fade(@gray-darker, 5%);
+            .navbar-header .navbar-brand {
+                color: @theme-primary;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    color: darken(@theme-primary, 10%);
+                }
+            }
+            .nav > li > a,
+            .nav > li > a:focus {
+                color: @gray-darker;
+                &:hover {
+                    color: @theme-primary;
+                }
+            }
+        }
+    }
 }
-*/
+
