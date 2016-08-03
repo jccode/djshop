@@ -1,0 +1,11 @@
+name 'djshop_ubuntu'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures djshop_ubuntu'
+long_description 'Installs/Configures djshop_ubuntu'
+version '0.1.0'
+
+# depends 'apt', '~> 4.0.1'
+# depends 'firewall', '~> 2.5.2'
+depends 'nginx', '~> 2.7.6'
