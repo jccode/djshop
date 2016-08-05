@@ -11,7 +11,7 @@ mysql_client 'default' do
 end
 
 
-mysql_config = data_bag_item("passwords", "mysql", IO.read("/etc/chef/data_bag_key"))
+mysql_config = data_bag_item("passwords", "mysql")
 
 # Configure the MySQL service
 mysql_service 'default' do
