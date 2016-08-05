@@ -8,3 +8,4 @@ docs/_build
 media/
 *.rdb
 log/
+chef/data_bag_key
