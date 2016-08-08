@@ -8,7 +8,7 @@
 group node['djshop_ubuntu']['group']
 
 user node['djshop_ubuntu']['user'] do
-  group 'web_admin'
+  group node['djshop_ubuntu']['group']
   system true
   shell '/bin/bash'
 end
