@@ -10,4 +10,4 @@ include_recipe 'djshop_ubuntu::firewall'
 include_recipe 'djshop_ubuntu::web_user'
 include_recipe 'djshop_ubuntu::nginx'
 include_recipe 'djshop_ubuntu::database'
-
+include_recipe 'djshop_ubuntu::application'

@@ -10,3 +10,4 @@ media/
 log/
 chef/data_bag_key
 .*
+src/public
