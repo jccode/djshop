@@ -6,13 +6,14 @@
 
 
 # Ruby gem source
-package 'gem'
+#package 'gem'
 
-bash 'gem sources' do
-  code <<-EOH
-    gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
-  EOH
-end
+# bash 'gem sources' do
+#   code <<-EOH
+#     gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+#   EOH
+# end
+
 
 # # Create the chef
 # directory "/etc/chef" do
