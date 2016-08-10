@@ -45,6 +45,11 @@ def copy_data_bag_secret():
     sudo("mkdir /etc/chef")
     put(data_bag_secret_file, data_bag_secret_file, use_sudo=True)
 
+
+@task
+def gem_source():    
+    put("~/.gemrc", "/root/.gemrc", use_sudo=True)
+
     
 # Setup env
 vagrant()

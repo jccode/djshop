@@ -6,7 +6,7 @@
 
 
 # Ruby gem source
-# package 'gem'
+package 'gem'
 
 bash 'gem sources' do
   code <<-EOH
