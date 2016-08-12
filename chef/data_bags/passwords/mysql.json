@@ -1,14 +1,26 @@
 {
   "id": "mysql",
   "user": {
-    "encrypted_data": "5uOJRr8/SykTfkY/0lkjR/e2bA117QfPqbf3q0jiPdM=\n",
-    "iv": "Ze3bDuS8XthL+suegfmMpA==\n",
+    "encrypted_data": "xDvGp0DK/aynq1iIZl5idpz8yHCqm892I0ZNsNawmWQ=\n",
+    "iv": "OefyCpl0AzX+yk5rU9R0BA==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "password": {
-    "encrypted_data": "kLDkdgf/Nues1hErB0sL3TuIPDYmd3fRH43kh8kWMFg=\n",
-    "iv": "DHGIBj8Y8/tjAuGBnq+WOQ==\n",
+    "encrypted_data": "aqFX4vf/UAyaCz18OUq2kuWkfw9OoB2gOpq+sV3fQo4=\n",
+    "iv": "0A165OKJn3vj8QdCI3UbJw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "user_admin": {
+    "encrypted_data": "vDU4kleCb8/jxoTOLTDayRiGcSY2IUyijB7YFBjTtHU=\n",
+    "iv": "MqVglpo/JuhyJUed39xAow==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password_admin": {
+    "encrypted_data": "L941xzQMzfkI2hxCfwWvIOUV3rPxztD7peBtlAQJf2Q=\n",
+    "iv": "b0ZNLLcMkW8NDNDIE8wB2g==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }
