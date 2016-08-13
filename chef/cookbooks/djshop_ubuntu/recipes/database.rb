@@ -31,6 +31,14 @@ mysql_service 'default' do
   action [:create, :start]
 end
 
+# Configrate
+mysql_config 'configuration' do
+  instance 'default'
+  source 'mysql.cnf.erb'
+  action :create
+  notifies :restart, 'mysql_service[default]'
+end
+
 # Install mysql2 Ruby gem
 mysql2_chef_gem 'default' do
   action :install
@@ -52,7 +60,7 @@ mysql_database_user node['djshop_ubuntu']['database']['admin_username'] do
              :username => node['djshop_ubuntu']['database']['root_username'],
              :password => mysql_config["password"]
             )
-  password node['djshop_ubuntu']['database']['password_admin']
+  password mysql_config['password_admin']
   database_name node['djshop_ubuntu']['database']['dbname']
   host node['djshop_ubuntu']['database']['host']
   action [:create, :grant]
