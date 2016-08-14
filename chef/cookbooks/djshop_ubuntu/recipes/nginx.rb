@@ -25,10 +25,10 @@ nginx_conf_file "localhost" do
   socket node['djshop_ubuntu']['gunicorn']['sock']
   locations({
              '/static/' => {
-                            'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/static"
+                            'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/"
                            },
-             '/media' => {
-                          'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/media"
+             '/media/' => {
+                          'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/"
                          }
             })
 end
