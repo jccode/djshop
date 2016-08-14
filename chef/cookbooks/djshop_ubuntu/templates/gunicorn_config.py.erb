@@ -1,0 +1,29 @@
+
+#
+# Server socket
+#
+#   bind - The socket to bind.
+#
+#       A string of the form: 'HOST', 'HOST:PORT', 'unix:PATH'.
+#       An IP is a valid HOST.
+#
+
+bind = "unix:<%= node['djshop_ubuntu']['gunicorn']['sock'] %>"
+
+
+#
+#   Logging
+#
+#   logfile - The path to a log file to write to.
+#
+#       A path string. "-" means log to stdout.
+#
+#   loglevel - The granularity of log output
+#
+#       A string of "debug", "info", "warning", "error", "critical"
+#
+
+errorlog = "<%= node['djshop_ubuntu']['gunicorn']['errorlog'] %>"
+loglevel = 'info'
+accesslog = "<%= node['djshop_ubuntu']['gunicorn']['accesslog'] %>"
+access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'

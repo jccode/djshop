@@ -16,9 +16,21 @@ nginx_conf_file "default" do
   action :disable
 end
 
+# nginx_conf_file "localhost" do
+#   root node['djshop_ubuntu']['document_root']
+#   site_type :static
+# end
+
 nginx_conf_file "localhost" do
-  root node['djshop_ubuntu']['document_root']
-  site_type :static
+  socket node['djshop_ubuntu']['gunicorn']['sock']
+  locations({
+             '/static/' => {
+                            'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/static"
+                           },
+             '/media' => {
+                          'root' => "#{node['djshop_ubuntu']['app_root']}/src/public/media"
+                         }
+            })
 end
 
 
