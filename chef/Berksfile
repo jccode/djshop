@@ -1,0 +1,10 @@
+source "https://api.berkshelf.com"
+
+cookbook 'apt', '~> 4.0.1'
+cookbook 'firewall', '~> 2.5.2'
+cookbook 'nginx_conf', '~> 1.0.1'
+cookbook 'mysql', '~> 7.2.0'
+cookbook 'application_python', '~> 4.0.0'
+cookbook 'mysql2_chef_gem', '~> 1.1.0'
+cookbook 'database', '~> 5.1.2'
+

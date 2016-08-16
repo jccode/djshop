@@ -1,9 +1,9 @@
-# See http://docs.chef.io/config_rb_knife.html for more information on knife configuration options
+cookbook_path    ["cookbooks", "site-cookbooks"]
+node_path        "nodes"
+role_path        "roles"
+environment_path "environments"
+data_bag_path    "data_bags"
+encrypted_data_bag_secret "data_bag_key"
 
-current_dir = File.dirname(__FILE__)
-log_level                :info
-log_location             STDOUT
-node_name                "exceldream"
-client_key               "#{current_dir}/exceldream.pem"
-chef_server_url          "https://api.chef.io/organizations/dianjin"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:berkshelf_path] = "cookbooks"
+Chef::Config[:ssl_verify_mode] = :verify_peer if defined? ::Chef
