@@ -43,9 +43,9 @@ def uname():
 
 
 @task
-def copy_data_bag_secret():
-    data_bag_secret_file = "/etc/chef/encrypted_data_bag_secret"
-    sudo("mkdir /etc/chef")
+def copy_data_bag_key():
+    data_bag_secret_file = "data_bag_key"
+    sudo("mkdir /srv/app/djshop/chef")
     put(data_bag_secret_file, data_bag_secret_file, use_sudo=True)
 
 
@@ -56,7 +56,6 @@ def gem_source():
 
 @task
 def prepare():
-    # print("knife solo prepare {user}@{host} -p {port} -i {key_filename}".format(**env))
     local("knife solo prepare {user}@{hosts[0]} -p {port} -i {key_filename}".format(**env))
 
 @task
