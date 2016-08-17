@@ -66,6 +66,9 @@ def cook():
 def bootstrap():
     local("knife solo bootstrap {user}@{hosts[0]} -p {port} -i {key_filename}".format(**env))
 
+@task
+def deploy():
+    local('knife solo cook {user}@{hosts[0]} -p {port} -i {key_filename} -o recipe[djshop-ubuntu::deploy]'.format(**env))
     
 # Setup env
 #vagrant()
