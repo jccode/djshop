@@ -166,7 +166,7 @@ SITE_ID = 1
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 994
 EMAIL_HOST_USER = 'exceldream'
-EMAIL_HOST_PASSWORD = base64.decodestring('ZXhkOTcxMDI3\n')
+EMAIL_HOST_PASSWORD = base64.decodestring('NzU5ODA1\n')
 EMAIL_USE_SSL = True
 
 
