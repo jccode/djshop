@@ -11,3 +11,4 @@ log/
 chef/data_bag_key
 .*
 src/public
+chef/cookbooks

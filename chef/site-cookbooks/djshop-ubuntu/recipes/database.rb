@@ -51,6 +51,7 @@ mysql_database node['djshop_ubuntu']['database']['dbname'] do
              :username => node['djshop_ubuntu']['database']['root_username'],
              :password => mysql_config["password"]
             )
+  encoding 'utf8'
   action :create
 end
 
