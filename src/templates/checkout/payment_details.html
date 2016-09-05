@@ -1,0 +1,11 @@
+{% extends "oscar/checkout/payment_details.html" %}
+{% load i18n %}
+
+
+{% block payment_details %}
+    {% block payment_details_content %}
+        <p>暂不支持在线付款，请联系客服付款! </p>
+
+        <a id="view_preview" href="{% url 'checkout:preview' %}" class="btn btn-primary btn-lg">{% trans "Continue" %}</a>
+    {% endblock payment_details_content %}
+{% endblock payment_details %}
